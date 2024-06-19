@@ -1,0 +1,44 @@
+.Nav {
+    height: auto;
+    background-color: black;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 80px auto 400px;
+    grid-template-areas: 
+    "logo space dir";
+    text-decoration: none;
+    color: white;
+}
+
+.border {
+    border: solid darkslategray 2px;
+}
+
+.logo-container {
+    grid-area: logo;
+    margin: auto;
+}
+
+.space-container {
+    grid-area: space;
+}
+
+.dir-container {
+    grid-area: dir;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.apply-container {
+    background-color: gainsboro;
+    color: black;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.padd {
+    padding: 12px;
+}

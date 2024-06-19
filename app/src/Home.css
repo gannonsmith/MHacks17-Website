@@ -1,0 +1,42 @@
+.Home {
+    margin: auto;
+}
+
+.home-container {
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "title"
+    "subtitle"
+    "button";
+    padding: 10%;
+}
+
+.title-container {
+    font-size: 64px;
+    font-weight: 500;
+    grid-area: title;
+}
+
+.subtitle-container {
+    grid-area: subtitle;
+    font-size: 20px;
+    color: gray;
+}
+
+.button-container {
+    grid-area: button;
+}
+
+.apply-button {
+    padding: 10px;
+    margin: auto;
+    width: 100px;
+    height: 28px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+}

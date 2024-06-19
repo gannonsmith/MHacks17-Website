@@ -26,7 +26,7 @@
 
 .dir-container {
     grid-area: dir;
-    padding: 20px;
+    padding: 4%;
     display: flex;
     justify-content: space-around;
     font-size: small;

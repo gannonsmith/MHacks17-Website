@@ -12,7 +12,7 @@
     "title"
     "subtitle"
     "button";
-    padding: 10%;
+    padding: 14%;
 }
 
 .title-container {
@@ -31,11 +31,11 @@
     grid-area: button;
 }
 
-.apply-button {
+.explore-button {
     padding: 10px;
     margin: auto;
     width: 100px;
-    height: 28px;
+    height: 24px;
     border-radius: 30px;
     color: black;
     background-color: white;

@@ -10,11 +10,11 @@ function Home() {
             <b>MHacks 17</b>
         </div>
         <div className='padd subtitle-container'>
-            Explore. Build. Innovate.
+            Design. Build. Innovate.
         </div>
         <div className='padd button-container'>
             <Link to='/about'>
-                <div className='apply-button'>
+                <div className='explore-button'>
                     Explore
                 </div>
             </Link>
